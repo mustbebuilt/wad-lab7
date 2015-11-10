@@ -1,0 +1,52 @@
+body{
+	font-family:helvetica, arial, sans-serif;	
+}
+#container{
+	width:1200px;
+	border:1px solid #666;
+	border-radius:6px;
+	box-shadow: 4px 4px 2px 0px rgba(0,0,0,0.5);
+	padding:15px;
+	margin:5px auto;
+}
+header{
+	border-bottom:1px solid #ccc;	
+	margin:10px;	
+}
+#admin{
+	float:right;		
+}
+header h1{
+	font-size: 1.2em;
+    letter-spacing: 3px;
+    font-weight: 100;	
+	float:left;
+	margin-top:0;
+}
+header p{
+	clear:both;	
+}
+header p a, #admin a{
+	text-decoration:none;	
+	color:#999;
+}
+header p a:hover, #admin a:hover{
+	text-decoration:underline;	
+	color:#66CC33;
+}
+section{
+	margin:10px;	
+}
+.rightImg{
+	float:right;
+	padding:12px;
+	border:1px solid #ccc;	
+	margin:50px;
+}
+footer{
+	clear:both;
+	border-top:1px solid #ccc;	
+	font-size:10px;
+	text-align:center;	
+	margin:10px;	
+}
